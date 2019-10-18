@@ -1,0 +1,6 @@
+https://www.w3schools.com/bootstrap/bootstrap_grid_basic.asp
+https://getbootstrap.com/docs/4.3/getting-started/introduction/
+https://getbootstrap.com/docs/4.0/utilities/sizing/
+https://xd.adobe.com/spec/3cf3e124-bc91-4727-6d72-5528d3715885-4ac2/screen/03cda9a1-675e-4969-8238-e14fa683be64/final-1/
+https://fonts.google.com/?query=mont&selection.family=Montserrat:300,400,500,600
+https://www.w3schools.com/tags/ref_pxtoemconversion.asp
