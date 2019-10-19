@@ -2,6 +2,7 @@ body,html {
     margin: 0;
     font-family: 'Montserrat', sans-serif;
     background-color: #5A3AB5;
+    scroll-behavior: smooth;
 }
 
 
@@ -27,11 +28,25 @@ FIRST SECTION
     font-size: 1.5em;
     cursor: pointer;
 }
+.letress:hover {
+    color: #00FFB3;
+    font-weight: 400;
+    font-size: 1.5em;
+    cursor: pointer;
+    text-decoration: none;
+}
 .letress-menu {
     color: white;
     font-weight: 400;
     font-size: 1.3em;
     cursor: pointer;
+}
+.letress-menu:hover {
+    color: #00ffb3;
+    font-weight: 400;
+    font-size: 1.3em;
+    cursor: pointer;
+    text-decoration: none;;
 }
 
 .left-side, .right-side {
@@ -95,6 +110,7 @@ LEFT BAR
     padding: 0.5em;
     margin: 0;
     cursor: pointer;
+    user-select: none;
 }
 
 .copy-btn {
@@ -102,6 +118,9 @@ LEFT BAR
     height: 100%;
     padding: 1.2em 2.4em;
     cursor: pointer;
+}
+.copy-btn:hover img {
+    transform: scale(1.2);
 }
 
 #control-btns {
@@ -152,6 +171,7 @@ RIGHT BAR
     font-size: 1.3em;
     display: flex;
     align-items: center;
+    cursor: pointer;
 }
 #delete-mail img {
     margin-left: 1em;
@@ -174,6 +194,8 @@ RIGHT BAR
     background-color: #60FFFF26;
     width: 80%;
     border-radius: 0.5em;
+
+    display: none;
 }
 .unread-sender {
     color: white;
@@ -249,6 +271,10 @@ FOOTER
 }
 .contact-div img {
     margin: 0 0.5em;
+    cursor: pointer;
+}
+.contact-div img:hover {
+    transform: translateY(-0.1em);
 }
 .web_arted {
     margin-top: 1em;
