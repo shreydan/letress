@@ -5,4 +5,4 @@
  Designed in Adobe XD.
  Made using Bootstrap.
 
- [!finished design - front end only](https://raw.githubusercontent.com/shreydan/letress/master/assets/webpage_full_draft.png)
+ ![finished design - front end only](https://raw.githubusercontent.com/shreydan/letress/master/assets/webpage_full_draft.png)
