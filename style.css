@@ -1,41 +1,58 @@
 body,html {
     margin: 0;
-    height: 100%;
     font-family: 'Montserrat', sans-serif;
+    background-color: #5A3AB5;
 }
 
+
+/* 
+FIRST SECTION
+*/
+
+
 .container-fluid {
-    min-height: 100%;
-    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    min-height: 100vh;
     background: transparent linear-gradient(360deg, #21197A 0%, #1D1676 100%) 0% 0% no-repeat padding-box;
 }
 
-
 .letress-nav {
-    padding-top: 2.5em;
+    padding-top: 4em;
 }
 .letress {
     color: #00FFB3;
     font-weight: 400;
-    font-size: 1em;
+    font-size: 1.5em;
     cursor: pointer;
 }
 .letress-menu {
     color: white;
     font-weight: 400;
-    font-size: 0.9em;
+    font-size: 1.3em;
     cursor: pointer;
 }
 
 .left-side, .right-side {
-    margin-top: 6em;
+    margin-top: 9em;
 
 }
+
+#curve {
+    position: relative;
+    bottom: -5em;
+    transform: scalex(1.1);
+}
+
+/* 
+LEFT BAR
+*/
 
 #time-left {
     margin: 0;
     padding: 0;
-    font-size: 1.5em;
+    font-size: 2.5em;
     font-weight: 500;
     color: white;
 }
@@ -47,12 +64,10 @@ body,html {
     display: flex;
     align-items: center;
     color: white;
-    font-size: 0.8em;
+    font-size: 1.4em;
 }
 #copy-line img {
-    margin-left: 15px;
-    height: 15px;
-    width: auto;
+    margin-left: 18px;
     cursor: pointer;
 }
 
@@ -65,13 +80,13 @@ body,html {
     background-color: white;
     border-radius: 0.25em;
     width: 70%;
-    margin-top: 1.5em;
+    margin-top: 2em;
     overflow: hidden;
 }
 #email-field {
     outline: none;
     font-family: 'Montserrat', sans-serif;
-    font-size: 0.9em;
+    font-size: 1.3em;
     font-weight: 600;
     border: none;
     text-align: center;
@@ -85,12 +100,8 @@ body,html {
 .copy-btn {
     background-color: #00FFB3;
     height: 100%;
-    padding: 0.5em 1.5em;
+    padding: 1.2em 2.4em;
     cursor: pointer;
-}
-.copy-btn img {
-    width: 80%;
-    height: auto;
 }
 
 #control-btns {
@@ -113,8 +124,136 @@ body,html {
 }
 
 #scroll-text {
-    margin-top: 4em;
+    margin-top: 6em;
     font-size: 1.2em;
     color: #59FFC680;
     font-weight: 500;
+}
+#scroll-text img {
+    margin-left: 1.2em;
+}
+
+
+/* 
+RIGHT BAR
+*/
+
+.letress-mail-box-menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#unread-text {
+    color: white;
+    font-size: 1.3em;
+}
+#delete-mail {
+    color: white;
+    font-size: 1.3em;
+    display: flex;
+    align-items: center;
+}
+#delete-mail img {
+    margin-left: 1em;
+}
+
+.letress-unread-mail-container {
+    margin: 0;
+    padding: 1.5em 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+#unread-mail {
+    padding: 2.5em 1.5em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #60FFFF26;
+    width: 80%;
+    border-radius: 0.5em;
+}
+.unread-sender {
+    color: white;
+    font-size: 1.2em;
+    font-weight: 500;
+}
+.unread-subject {
+    color: #5BD6B1;
+    font-size: 1.2em;
+    font-weight: 500;
+}
+
+#read-text {
+    color: white;
+    font-size: 1.3em;
+    margin-top: 3em;
+    margin-left: 3em;
+}
+
+
+
+/* 
+SECTION 2
+*/
+
+.section2 {
+    margin: 0;
+    padding: 0;
+
+    background-color: #5A3AB5;
+    border-radius: 0;
+}
+
+#detail-title {
+    margin-bottom: 1em;
+    font-size: 2.2em;
+    color: #5BD6B1;
+    font-weight: 500;
+}
+#detail {
+    font-size: 1.4em;
+    color: white;
+    font-weight: 400;
+    width: 80%;
+}
+.left-detail img {
+    padding: 2em;
+}
+.right-detail img {
+    padding: 2em;
+}
+
+/* 
+FOOTER
+*/
+#letress-footer {
+    margin: 0;
+    padding: 0;
+    margin-top: 4em;
+    height: 290.123px;
+    width: 100%;
+    background: url('assets/Path_footer.svg') no-repeat;
+    transform: scaleX(1.1);
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.contact-div {
+    margin-top: 1em;
+    color: white;
+    font-size: 1.5em;
+}
+.contact-div img {
+    margin: 0 0.5em;
+}
+.web_arted {
+    margin-top: 1em;
+    font-size: 1.5em;
+    color: white;
+    font-weight: 400;
+    font-style: italic;
 }
